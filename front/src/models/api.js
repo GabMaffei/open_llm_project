@@ -1,5 +1,5 @@
 import ImageCaptioner from "./ImageCaptioner";
 
-export default function generateCaption(imgSrc) {
+export default async function generateCaption(imgSrc) {
     return ImageCaptioner.generateCaption(imgSrc);
 }

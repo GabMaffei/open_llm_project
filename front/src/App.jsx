@@ -6,8 +6,9 @@ function App() {
   const [imgSrc, setImgSrc] = useState('https://m.media-amazon.com/images/I/81XrqZFs7sL.png');
   const [caption, setCaption] = useState("<Caption>");
 
-  function addCaption() {
-    const caption = generateCaption(imgSrc);
+  async function addCaption() {
+    setCaption("Generating...");
+    const caption = await generateCaption(imgSrc);
     setCaption(caption);
   }
 
