@@ -1,0 +1,48 @@
+# Node
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+/build/
+/dist/
+/out/
+/public/build/
+/storybook-static/
+/.parcel-cache/
+/.cache/
+/.next/
+
+# Environment
+.env
+.env.*.local
+!.env.example
+
+# Tests / Coverage
+/coverage/
+/test-results/
+/cypress/videos/
+/cypress/screenshots/
+/playwright-report/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+.eslintcache
+*.log
+*.tsbuildinfo
