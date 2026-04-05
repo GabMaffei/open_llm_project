@@ -15,9 +15,9 @@
 - [X] Containerizar
 
 ## Parte 3 - Sintetização de áudio [Python]
-- [ ] Criar projeto
-- [ ] Criar servidro HTTP
-- [ ] Criar Endpoint
-- [ ] Executar modelo de IA
+- [X] Criar projeto
+- [X] Criar servidor HTTP
+- [X] Criar Endpoint
+- [X] Executar modelo de IA
 - [ ] Conectar com front end
 - [ ] Containerizar
