@@ -7,12 +7,12 @@
 - [X] Executar modelo de IA
 
 ## Parte 2 - Traduzindo Legendas (ENG -> PT) [Node]
-- [ ] Criar projeto
-- [ ] Criar servidro HIT
-- [ ] Criar Endpoint
-- [ ] Executar modelo de IA
-- [ ] Conectar com front end
-- [ ] Containerizar
+- [X] Criar projeto
+- [X] Criar servidro HIT
+- [X] Criar Endpoint
+- [X] Executar modelo de IA
+- [X] Conectar com front end
+- [X] Containerizar
 
 ## Parte 3 - Sintetização de áudio [Python]
 - [ ] Criar projeto
