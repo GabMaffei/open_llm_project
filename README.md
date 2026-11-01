@@ -85,3 +85,19 @@ server_python/ Text-to-speech API and generated local audio files
 ## Learning context
 
 The related course module builds an image-captioning, translation, and speech-synthesis pipeline with JavaScript, React, Node.js, and Python. This repository is an educational implementation of that workflow.
+
+## Source guide
+
+| Source | What to inspect |
+| --- | --- |
+| [Browser pipeline](front/src/App.jsx) | Image URL input, caption generation, and API orchestration. |
+| [Translation endpoint](server_node/index.js) | Node HTTP entry point and translation request handling. |
+| [Translator model](server_node/models/Translator.js) | Loading and reuse of the translation pipeline. |
+| [Speech endpoint](server_python/main.py) | Flask request handling and generated audio URLs. |
+| [Speech model](server_python/models/text_to_audio.py) | Bark initialization and WAV generation. |
+
+## Reading the pipeline
+
+Follow one caption through the application: image captioning runs in the browser, translation is requested from the Node service, and the translated text is sent to the Python speech service. This separation makes the location of each model's execution explicit.
+
+Use a publicly accessible image URL that the browser can fetch, including any applicable cross-origin permissions. First-run model downloads and speech generation can take substantially longer than subsequent browser interactions. The code uses pretrained models; this repository does not include custom model training.
